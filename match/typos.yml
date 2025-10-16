@@ -1,0 +1,8 @@
+# Common typos I make
+matches:
+  - trigger: "teh"
+    replace: "the"
+    propagate_case: true
+    left_word: true
+  
+  
