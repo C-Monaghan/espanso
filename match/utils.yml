@@ -1,0 +1,9 @@
+# Outputs the current weather for your location
+matches:
+  - trigger: ":weather"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl 'http://wttr.in/?format=3'"

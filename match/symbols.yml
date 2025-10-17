@@ -1,0 +1,14 @@
+# Common symbols I use
+
+matches:
+  # Currency
+  - trigger: ":euro"
+    replace: "\u20ac" # I finally have an easy way to do the euro symbol on keyboard!!
+  - trigger: ":gdp"
+    replace: "\u00A3"
+  - trigger: ":usd"
+    replace: "\u0024"
+
+  # Legal
+  - triggers: [":(c)", ":copyright"]
+    replace: "©"

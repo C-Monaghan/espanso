@@ -1,8 +1,23 @@
 # Common typos I make
 matches:
+  - trigger: "continous"
+    replace: "continuous"
+    proagate_case: true
+    word: true
+    
   - trigger: "teh"
     replace: "the"
     propagate_case: true
     left_word: true
+  
+  - trigger: "simiarly"
+    replace: "similarly"
+    propagate_case: true
+    word: true
+
+  - triggers: ["similtaniously"]
+    replace: "simultaneously"
+    propagate_case: true
+    word: true
   
   

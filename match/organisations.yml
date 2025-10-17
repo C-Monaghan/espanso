@@ -1,0 +1,13 @@
+# Organisations I work for
+matches:
+  - triggers: ["mu", "MU"]
+    replace: "Maynooth University"
+    right_word: true
+
+  - triggers: ["ul", "UL"]
+    replace: "University of Limerick"
+    right_word: true
+
+  - trigger: "du"
+    replace: "Durham University"
+    right_word: true
