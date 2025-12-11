@@ -19,5 +19,10 @@ matches:
     replace: "simultaneously"
     propagate_case: true
     word: true
+
+  - triggers: ["ultimitely", "ultimetely"]
+    replace: "ultimately"
+    propagate_case: true
+    word: true
   
   

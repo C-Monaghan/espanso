@@ -1,5 +1,5 @@
-# Outputs the current weather for your location
 matches:
+  # Outputs the current weather for your location
   - trigger: ":weather"
     replace: "{{output}}"
     vars:
@@ -7,3 +7,11 @@ matches:
         type: shell
         params:
           cmd: "curl 'http://wttr.in/?format=3'"
+
+  - trigger: "get_seed"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "curl 'https://www.random.org/integers/?num=1&min=10000000&max=99999999&col=1&base=10&format=plain&rnd=new'"
