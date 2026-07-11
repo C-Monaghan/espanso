@@ -1,0 +1,5 @@
+# Common typos I make
+matches:
+  - trigger: ":pagebreak"
+    replace: "{{< pagebreak >}}"
+    word: true

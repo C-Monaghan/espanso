@@ -4,12 +4,12 @@ matches:
     replace: "continuous"
     proagate_case: true
     word: true
-    
+
   - trigger: "teh"
     replace: "the"
     propagate_case: true
     left_word: true
-  
+
   - trigger: "simiarly"
     replace: "similarly"
     propagate_case: true
@@ -24,5 +24,28 @@ matches:
     replace: "ultimately"
     propagate_case: true
     word: true
-  
-  
+
+  - triggers: ["particularity", "parituclar"]
+    replace: "particular"
+    propagate_case: true
+    word: true
+
+  - triggers: ["particuaraly", "particuarly"]
+    replace: "particularly"
+    propagate_case: true
+    word: true
+
+  - trigger: "enviroment"
+    replace: "environment"
+    propagate_case: true
+    word: true
+
+  - trigger: "enviromental"
+    replace: "environmental"
+    propagate_case: true
+    word: true
+
+  - triggers: ["calander", "calender"]
+    replace: "calendar"
+    propagate_case: true
+    word: true

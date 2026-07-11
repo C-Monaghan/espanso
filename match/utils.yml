@@ -8,10 +8,14 @@ matches:
         params:
           cmd: "curl 'http://wttr.in/?format=3'"
 
-  - trigger: "get_seed"
-    replace: "{{output}}"
+  - trigger: ":today"
+    replace: "{{mydate}}"
     vars:
-      - name: output
-        type: shell
+      - name: mydate
+        type: date
         params:
-          cmd: "curl 'https://www.random.org/integers/?num=1&min=10000000&max=99999999&col=1&base=10&format=plain&rnd=new'"
+          format: "%Y/%m/%d"
+
+    # Writes my TidyTuesday hashtags
+  - trigger: ":tthash"
+    replace: "#rstats #ggplot2 #dataviz"

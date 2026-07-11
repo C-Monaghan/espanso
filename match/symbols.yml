@@ -12,3 +12,19 @@ matches:
   # Legal
   - triggers: [":(c)", ":copyright"]
     replace: "©"
+
+  # Arrows
+  - trigger: ":rightarrow"
+    replace: "→"
+  - trigger: ":leftarrow"
+    replace: "←"
+  - trigger: ":uparrow"
+    replace: "↑"
+  - trigger: ":downarrow"
+    replace: "↓"
+    
+  # Maths
+  - trigger: ":times"
+    replace: "×"
+  - trigger: ":pm"
+    replace: "±"
