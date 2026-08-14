@@ -8,13 +8,14 @@ matches:
         params:
           cmd: "curl 'http://wttr.in/?format=3'"
 
+  # Outputs the current date
   - trigger: ":today"
     replace: "{{mydate}}"
     vars:
       - name: mydate
         type: date
         params:
-          format: "%Y/%m/%d"
+          format: "%Y-%m-%d"
 
     # Writes my TidyTuesday hashtags
   - trigger: ":tthash"

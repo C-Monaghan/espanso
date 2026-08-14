@@ -49,3 +49,13 @@ matches:
     replace: "calendar"
     propagate_case: true
     word: true
+
+  - trigger: "doesnt"
+    replace: "doesn't"
+    propagate_case: true
+    word: true
+
+  - trigger: "dont"
+    replace: "don't"
+    propagate_case: true
+    word: true
