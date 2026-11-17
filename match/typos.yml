@@ -2,7 +2,7 @@
 matches:
   - trigger: "continous"
     replace: "continuous"
-    proagate_case: true
+    propagate_case: true
     word: true
 
   - trigger: "teh"

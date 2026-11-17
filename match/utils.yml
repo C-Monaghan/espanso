@@ -20,3 +20,7 @@ matches:
     # Writes my TidyTuesday hashtags
   - trigger: ":tthash"
     replace: "#rstats #ggplot2 #dataviz"
+
+    # Allows me to add tinytable math to document
+  - trigger: ":addttmath"
+    replace: "options(tinytable_html_mathjax = TRUE)"
